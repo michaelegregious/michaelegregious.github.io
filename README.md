@@ -1,4 +1,4 @@
-## Below Instructions Refer to Create-React-App
+## MB's Note: Most of the Below Instructions Refer to Create-React-App
 
 The additional hitch in this web app is that it requires a special library (react-gh-pages), which deploys the built React App to the gh-pages branch of this repository. To read more about this, see info on [react-gh-pages](https://github.com/gitname/react-gh-pages).
 

@@ -1,3 +1,11 @@
+## Below Instructions Refer to Create-React-App
+
+The additional hitch in this web app is that it requires a special library (react-gh-pages), which deploys the built React App to the gh-pages branch of this repository. To read more about this, see info on [react-gh-pages](https://github.com/gitname/react-gh-pages).
+
+Nota bene: Push changes to Master, but in order to deploy the finished app, use the deploy CLI command.
+
+##OK!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

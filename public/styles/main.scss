@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+// Import Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+
+.image.is-256x256 {
+  height: 256px;
+  width: 256px;
+}
+
+.navbar-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.name-headline {
+  color: white !important;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.navbar {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.subhead-text {
+  color: #212822 !important;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+// Set your brand colors
+$burnt-orange: #b98514;
+$mint-green: #a4c8a7;
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+$light-orange: #f5f1ee;
+$rifle-green: #3c493d;
+$dark-grey: #434241;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Arimo', sans-serif;
+$grey-dark: $dark-grey;
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 2rem;
+$navbar-item-color: $burnt-orange;
+$primary: $mint-green;
+$link: $rifle-green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $light-orange;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import '../../node_modules/bulma/bulma.sass';
+
+// @import '../node_modules/bulma/sass/utilities/_all.sass';
+// @import '../node_modules/bulma/sass/base/_all.sass';
+// @import '../node_modules/bulma/sass/elements/button.sass';
+// @import '../node_modules/bulma/sass/elements/container.sass';
+// @import '../node_modules/bulma/sass/elements/form.sass';
+// @import '../node_modules/bulma/sass/elements/title.sass';
+// @import '../node_modules/bulma/sass/layout/hero.sass';
+// @import '../node_modules/bulma/sass/layout/section.sass';

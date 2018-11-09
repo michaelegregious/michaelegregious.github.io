@@ -4,7 +4,7 @@ import Navbar from './navbar';
 import About from './about';
 import Projects from './projects';
 import Footer from './footer';
-import logo from './logo.svg';
+import './styles/main.scss';
 
 class App extends Component {
   render() {

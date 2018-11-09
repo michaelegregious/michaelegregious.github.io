@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://michaelegregious.github.io/portfolio",
+  "homepage": "http://michaelegregious.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "sass-watch": "sass ./public/styles/main.scss ./public/styles/main.css --watch"
+    "sass-watch": "sass ./src/styles/main.scss ./src/styles/main.css --watch"
   },
   "eslintConfig": {
     "extends": "react-app"

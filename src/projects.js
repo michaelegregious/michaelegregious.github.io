@@ -3,6 +3,7 @@ import SingleProject from './single-project';
 import graceShopper from './img/graceShopperScreenCap.png';
 import memenomics from './img/memenomicsScreencap.png';
 import urbanForager from './img/urbanForagerScreencap.png';
+import portfolio from './img/portfolioScreenCap.png';
 
 const Projects = () => {
   return (
@@ -56,6 +57,18 @@ const Projects = () => {
               An e-commerce app with end-to-end authentication and OAuth
               integration. Fullstack Javascript with React, Redux, Node.js,
               Express, and PostgreSQL.
+            </p>
+          }
+        />
+        <SingleProject
+          img={portfolio}
+          name="Portfolio Page"
+          webUrl="https://michaelegregious.github.io/"
+          gitUrl="https://github.com/michaelegregious/michaelegregious.github.io"
+          description={
+            <p>
+              A simple portfolio page to show off some of what I'm working on
+              lately. This page is built with React and Bulma.io. So meta.
             </p>
           }
         />

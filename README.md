@@ -1,9 +1,22 @@
-## MB's Note: Most of the Below Instructions Refer to Create-React-App
+## Some notes on this Portfolio Page
 
-Test!
-The additional hitch in this web app is that it requires a special library (react-gh-pages), which deploys the built React App to the gh-pages branch of this repository. To read more about this, see info on [react-gh-pages](https://github.com/gitname/react-gh-pages).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Nota bene: Push changes to Master, but in order to deploy the finished app, use the deploy CLI command.
+The additional hitch in this web app is that it requires a special library ([react-gh-pages](https://github.com/gitname/react-gh-pages)), which in our case deploys the built React App to the Master branch of this repository.
+
+### This means that instead of pushing changs to Master, you need to push them to the Source branch.
+
+(Don't worry too much though, because git will holler at you if you try to push to Master.)
+
+When we want to deploy our app, we'll run
+
+### `npm run deploy`
+
+which will then deploy our bundled/packaged React App to github.
+
+Normally, react-gh-pages likes to deploy to a branch called gh-pages (and it does a good job of letting github know to look there for the bundled files). However, for personal pages (i.e. michaelegregious.github.io), github will only deploy from Master. Thus, we needed a workaround. You can read a bit more about that [here](https://dev.to/javascripterika/deploy-a-react-app-as-a-github-user-page-with-yarn-3fka).
+
+To read more about react-gh-pages, look [here](https://github.com/gitname/react-gh-pages).
 
 ##OK!
 

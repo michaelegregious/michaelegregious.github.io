@@ -7,7 +7,7 @@ const SingleProject = props => {
       <div className="columns">
         <div className="column is-5">
           <a href={webUrl}>
-            <img src={img} />
+            <img src={img} className="project-image" />
           </a>
         </div>
         <div className="column">
@@ -15,9 +15,14 @@ const SingleProject = props => {
             <a href={webUrl} target="_blank" rel="noopener noreferrer">
               {name}
             </a>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href={gitUrl} target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-github" />
+            &nbsp;&nbsp;
+            <a
+              href={gitUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="subhead-text"
+            >
+              <i className="fab fa-github" />
             </a>
           </p>
           {description}

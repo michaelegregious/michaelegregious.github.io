@@ -10,6 +10,13 @@ const Footer = props => {
               <strong class="has-text-weight-bold">
                 Copyright © Michael Bush 2018
               </strong>
+              <br />
+              <small>
+                Iterative development means everything is always under
+                construction.
+              </small>
+              <br />
+              <small>...and that's a good thing.</small>
             </p>
           </div>
         </div>

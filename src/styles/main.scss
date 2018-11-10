@@ -8,11 +8,6 @@
   width: 256px;
 }
 
-.navbar-item {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .name-headline {
   color: white !important;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3) !important;
@@ -23,6 +18,11 @@
   padding-right: 1.5rem;
 }
 
+.navbar-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .subhead-text {
   color: #212822 !important;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3) !important;
@@ -31,7 +31,6 @@
 // Set your brand colors
 $burnt-orange: #b98514;
 $mint-green: #a4c8a7;
-$purple: #8a4d76;
 $pink: #fa7c91;
 $brown: #757763;
 $beige-light: #d0d1cd;
@@ -42,20 +41,21 @@ $dark-grey: #434241;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Arimo', sans-serif;
-$grey-dark: $dark-grey;
-$navbar-height: 5rem;
-$navbar-item-img-max-height: 2rem;
-$navbar-item-color: $burnt-orange;
-$primary: $mint-green;
-$link: $rifle-green;
-$widescreen-enabled: false;
 $fullhd-enabled: false;
+$grey-dark: $dark-grey;
+$link: $rifle-green;
+$primary: $mint-green;
+$widescreen-enabled: false;
 
 // Update some of Bulma's component variables
 $body-background-color: $light-orange;
 $control-border-width: 2px;
+$footer-background-color: #f5f1ee;
 $input-border-color: transparent;
 $input-shadow: none;
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 2rem;
+$navbar-item-color: $burnt-orange;
 
 // Import only what you need from Bulma
 @import '../../node_modules/bulma/bulma.sass';

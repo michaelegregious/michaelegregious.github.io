@@ -20,14 +20,14 @@ const About = props => {
             <p>
               I recently attended Fullstack Academy (a coding bootcamp in
               Chicago), where I fell in love with other aspects of software like
-              iterative, agile development practices, algorithmic patterns, and
-              database architecture. I enjoy both the design challenge of
-              building intutive user-interfaces on front-end, as well as the
+              iterative, agile development, algorithmic patterns, and data
+              architecture. I enjoy both the design challenge of building
+              elegant, intutive user-interfaces on the front-end, as well as the
               structural problem-solving of the back-end.
             </p>
             <p>
-              I'm motivated by writing DRY, reusable code, that is easily
-              maintainable, testable and easy to read.
+              I'm motivated by writing clean, reusable code, that is easily
+              maintainable, legible and testable.
             </p>
           </div>
           <div class="column">
@@ -39,9 +39,10 @@ const About = props => {
               schema with normalized data on the front end.
             </p>
             <p>
-              I have some experience with C++ and Python. I'm mindful of the
-              structural powers of object-oriented programming, and the
-              legibility of functional composition.
+              I have experience with C++ and Python. I have a strong
+              appreciation for the structural benefits of object-oriented
+              programming, and an even stronger love for simple functional
+              composition.
             </p>
             <p>
               I've worked with Sequelize, JQuery, REST, CSS, Sass, HTML5, Git,

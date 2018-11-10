@@ -5,6 +5,7 @@ import About from './about';
 import Projects from './projects';
 import Footer from './footer';
 import './styles/main.scss';
+import { Element } from 'react-scroll';
 
 class App extends Component {
   render() {
@@ -12,8 +13,12 @@ class App extends Component {
       <div>
         <Navbar />
         <ProfileHero />
-        <About />
-        <Projects />
+        <Element name="about" className="element">
+          <About />
+        </Element>
+        <Element name="projects" className="element">
+          <Projects />
+        </Element>
         <Footer />
       </div>
     );

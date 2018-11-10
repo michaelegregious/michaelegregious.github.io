@@ -18,6 +18,6 @@ Normally, react-gh-pages first magically creates and then subsequently deploys t
 
 To read more about react-gh-pages, look [here](https://github.com/gitname/react-gh-pages).
 
-##OK!
+## OK!
 
 Let me know if you have any questions.

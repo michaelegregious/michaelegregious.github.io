@@ -4,6 +4,10 @@ self.__precacheManifest = [
     "url": "/static/media/urbanForagerScreencap.bb9e3bc6.png"
   },
   {
+    "revision": "321eb67a914093b1c7d6d7b1f9e99273",
+    "url": "/static/media/portfolioScreenCap.321eb67a.png"
+  },
+  {
     "revision": "286becab424905da90273c39bd1042e3",
     "url": "/static/media/portfolioPic5.286becab.jpg"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "81691090f2baa6710649",
-    "url": "/static/js/main.81691090.chunk.js"
+    "revision": "0fd54bea88c3c597c7c3",
+    "url": "/static/js/main.0fd54bea.chunk.js"
   },
   {
-    "revision": "db85c072ca7a7efdfdc4",
-    "url": "/static/js/1.db85c072.chunk.js"
+    "revision": "b826851657da9b194f35",
+    "url": "/static/js/1.b8268516.chunk.js"
   },
   {
-    "revision": "81691090f2baa6710649",
-    "url": "/static/css/main.2a16bca1.chunk.css"
+    "revision": "0fd54bea88c3c597c7c3",
+    "url": "/static/css/main.44606a6f.chunk.css"
   },
   {
-    "revision": "ba91dfb9688b7c55944770f04a4fdff9",
+    "revision": "8336a48af4354b818efce20581aa4aef",
     "url": "/index.html"
   }
 ];

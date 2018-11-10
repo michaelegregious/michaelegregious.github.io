@@ -12,11 +12,7 @@ const SingleProject = props => {
         </div>
         <div className="column">
           <p class="subhead-text title is-4">
-            <a
-              href="http://memenomics.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={webUrl} target="_blank" rel="noopener noreferrer">
               {name}
             </a>
             &nbsp;&nbsp;&nbsp;&nbsp;

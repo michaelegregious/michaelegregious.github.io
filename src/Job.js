@@ -1,10 +1,9 @@
 import React from "react";
 
 const Job = (props) => {
-  const { img, name, description, webUrl, gitUrl } = props;
   return (
     <div>
-      <b>GreenKey Technologies (GK)</b>
+      <b>GreenKey Technologies (GK)</b><br>
       <i>Software Engineer</i> • Dec, 2018 — Feb, 2021
       <ul>
         <li>
@@ -13,7 +12,7 @@ const Job = (props) => {
           PostgreSQL, MongoDB, Docker, Redis.
         </li>
         <li>
-          Built, scrapped, and built again three iterations of GK's successful
+          Built, scrapped, and built again three iterations of GK's ultimately successful
           Focus UI suite, improving customer satisfaction, UX, and data
           model-training feedback dramatically.
         </li>
@@ -41,4 +40,4 @@ const Job = (props) => {
   );
 };
 
-export default SingleProject;
+export default Job;

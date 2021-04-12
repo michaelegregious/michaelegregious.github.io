@@ -6,6 +6,7 @@ import Projects from './Projects';
 import Footer from './Footer';
 import './styles/main.scss';
 import { Element } from 'react-scroll';
+import WorkExperience from './Work-Experience';
 
 class App extends Component {
   render() {
@@ -15,6 +16,9 @@ class App extends Component {
         <ProfileHero />
         <Element name="about" className="element">
           <About />
+        </Element>
+        <Element name="work experience" className="element">
+          <WorkExperience/>
         </Element>
         <Element name="projects" className="element">
           <Projects />

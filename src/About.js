@@ -18,7 +18,10 @@ const About = props => {
               because I'm passionate about building things, and I love language.
             </p>
             <p>
-              I recently celebrated two years as a professional Software Engineer at a great company. I'm an enthusiastic programmer; I think the work presents a great combination of technical challenge, collaborative dialog and goal-setting and iterative improvement. I enjoy both the design challenge of building
+              I recently celebrated two years as a professional Software Engineer at a great company. I had the opportunity there to build from scratch several iterations of an ultimately impressive and successful natural language processing (NLP) app, <a href="https://greenkeytech.com/focus-studio/">Focus Studio</a>, that extracted nuanced and domain-specific jargon from real-time dialog. Collaborating with a close-knit team of thoughtful engineers and data scientists has been a very rewarding experience.
+              </p>
+              <p> 
+              I'm an enthusiastic programmer; I think the work presents a great combination of technical challenge, collaborative dialog and goal-setting and iterative improvement. I enjoy both the design challenge of building
               elegant, intutive user-interfaces on the front-end, as well as the structural and architectural problem-solving of the back-end.
             </p>
             <p>
@@ -35,7 +38,7 @@ const About = props => {
               schema with normalized data on the front end. 
             </p>
             <p>
-              I'm a lifelong learner, and am always happy to learn new technologies. I've worked with a variety of JS frameworks and libraries (Sequelize, Objection, Knex, JQuery, React Native, Webpack, Mocha, Chai, Jest, etc.). I've also worked with GoLang (and the GoBuffalo ORM), I'm familiar with Docker and thinking in terms of microservices. I'm comfortable writing RESTful APIs, as well as with CSS, Sass, HTML5, Git, Github and Git workflow tools, SQL, Travis,
+              I'm a lifelong learner, and am always happy to embrace new technologies. I've worked with a variety of JS frameworks and libraries (Sequelize, Objection, Knex, JQuery, React Native, Webpack, Mocha, Chai, Jest, etc.). I've also worked with GoLang (and the GoBuffalo ORM), I'm familiar with Docker and thinking in terms of microservices. I'm comfortable writing RESTful APIs, as well as with CSS, Sass, HTML5, Git, Github and Git workflow tools, SQL, Travis,
               CI, Heroku. I've also dabbled with a number of
               external APIs at Google, Amazon, Github, etc. I'm continually
               learning and exploring new technologies.

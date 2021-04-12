@@ -1,5 +1,5 @@
 import React from 'react';
-import SingleProject from './single-project';
+import SingleProject from './SingleProject';
 import graceShopper from './img/graceShopperScreenCap.png';
 import memenomics from './img/memenomicsScreencap.png';
 import urbanForager from './img/urbanForagerScreencap.png';

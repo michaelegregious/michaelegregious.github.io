@@ -8,7 +8,7 @@ const ProfileHero = props => {
         <div class="hero-body">
           <div class="container">
             <figure class="image container is-256x256">
-              <img class="is-rounded" src={portfolioPic} />
+              <img alt="website page photo" class="is-rounded" src={portfolioPic} />
             </figure>
             <br />
             <div class="content has-text-centered">

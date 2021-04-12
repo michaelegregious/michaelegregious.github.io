@@ -7,7 +7,7 @@ const SingleProject = props => {
       <div className="columns">
         <div className="column is-5">
           <a href={webUrl}>
-            <img src={img} className="project-image" />
+            <img src={img} className="project-image" alt="website cover photo"/>
           </a>
         </div>
         <div className="column">

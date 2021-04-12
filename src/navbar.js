@@ -7,9 +7,10 @@ const Navbar = props => {
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://michaelegregious.github.io/">
-          <img src={nameLogo} />
+          <img src={nameLogo}  alt="michael bush"/>
         </a>
         <a
+          href="#"
           role="button"
           class="navbar-burger burger"
           aria-label="menu"

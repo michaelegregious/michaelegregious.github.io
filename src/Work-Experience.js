@@ -13,4 +13,4 @@ const WorkExperience = () => {
   );
 };
 
-export default Projects
+export default WorkExperience

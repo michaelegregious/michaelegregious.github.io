@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ProfileHero from './profile-hero';
-import Navbar from './navbar';
-import About from './about';
-import Projects from './projects';
-import Footer from './footer';
+import ProfileHero from './ProfileHero';
+import Navbar from './Navbar';
+import About from './About';
+import Projects from './Projects';
+import Footer from './Footer';
 import './styles/main.scss';
 import { Element } from 'react-scroll';
 

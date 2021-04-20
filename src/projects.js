@@ -1,9 +1,9 @@
-import React from 'react';
-import SingleProject from './SingleProject';
-import graceShopper from './img/graceShopperScreenCap.png';
-import memenomics from './img/memenomicsScreencap.png';
-import urbanForager from './img/urbanForagerScreencap.png';
-import portfolio from './img/portfolioScreenCap.png';
+import React from "react";
+import SingleProject from "./SingleProject";
+import graceShopper from "./img/graceShopperScreenCap.png";
+import memenomics from "./img/memenomicsScreencap.png";
+import urbanForager from "./img/urbanForagerScreencap.png";
+import portfolio from "./img/portfolioScreenCap.png";
 
 const Projects = () => {
   return (

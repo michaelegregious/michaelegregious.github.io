@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-const SingleProject = props => {
+const SingleProject = (props) => {
   const { img, name, description, webUrl, gitUrl } = props;
   return (
     <div>
       <div className="columns">
         <div className="column is-5">
           <a href={webUrl}>
-            <img src={img} className="project-image" alt="website cover photo"/>
+            <img
+              src={img}
+              className="project-image"
+              alt="website cover photo"
+            />
           </a>
         </div>
         <div className="column">

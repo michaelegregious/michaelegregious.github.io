@@ -1,16 +1,15 @@
-import React from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import nameLogo from './img/homePageLogo.png';
+import React from "react";
+import { Link as ScrollLink } from "react-scroll";
+import nameLogo from "./img/homePageLogo.png";
 
-const Navbar = props => {
+const Navbar = (props) => {
   return (
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://michaelegregious.github.io/">
-          <img src={nameLogo}  alt="michael bush"/>
+          <img src={nameLogo} alt="michael bush" />
         </a>
         <a
-          href="#"
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
@@ -34,7 +33,14 @@ const Navbar = props => {
           >
             About Me
           </ScrollLink>
-
+          <ScrollLink
+            className="navbar-item"
+            to="experience"
+            smooth={true}
+            duration={750}
+          >
+            Work
+          </ScrollLink>
           <ScrollLink
             className="navbar-item"
             to="projects"

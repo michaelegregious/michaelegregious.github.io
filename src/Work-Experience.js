@@ -3,7 +3,7 @@ import Job from './Job'
 
 const WorkExperience = () => {
   return (
-    <section class="section  is-primary">
+    <section class="section hero is-primary has-text-dark">
       <div className="container content">
         <h3 class="subhead-text">Work Experience</h3>
         <Job />

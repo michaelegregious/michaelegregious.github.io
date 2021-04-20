@@ -14,7 +14,7 @@ const ProfileHero = props => {
             <div class="content has-text-centered">
               <h2 class="title is-2 name-headline">Michael Bush</h2>
               <h4 class="subtitle is-4 name-headline">
-                Full-stack Software Developer
+                Full-stack Software Engineer 
               </h4>
             </div>
           </div>

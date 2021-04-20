@@ -1,10 +1,11 @@
 import React from "react";
 
-const Job = (props) => {
+const Job = () => {
   return (
-    <div>
-      <b>GreenKey Technologies (GK)</b><br>
-      <i>Software Engineer</i> • Dec, 2018 — Feb, 2021
+    // <div>
+      <p>
+      <h4>GreenKey Technologies (GK)</h4>&nbsp;&nbsp;
+      <i>Software Engineer</i>&nbsp;&nbsp;•&nbsp;&nbsp;Dec, 2018 — Feb, 2021
       <ul>
         <li>
           Collaborated on a small, agile team to design and build full stack
@@ -35,8 +36,8 @@ const Job = (props) => {
           scalability, readability and extensibility of codebases.
         </li>
       </ul>
-      <br />
-    </div>
+      </p>
+    // </div>
   );
 };
 
